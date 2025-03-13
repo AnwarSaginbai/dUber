@@ -10,7 +10,7 @@
 ```
 
 
-##TODO:
+## TODO:
   - update readme with API reference, arch photos and etc.
   - add gateway
   - add kafka broker
