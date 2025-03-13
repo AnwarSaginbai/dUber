@@ -9,3 +9,9 @@
   go run ./cmd/ (inside every service)
 ```
 
+
+TODO:
+  update readme with API reference, arch photos and etc.
+  add gateway
+  add kafka broker
+  add metrics
