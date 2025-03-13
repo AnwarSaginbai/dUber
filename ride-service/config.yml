@@ -1,0 +1,10 @@
+server:
+  host: localhost
+  port: 8082
+database:
+  host: localhost
+  port: 5433
+  username: anwarz
+  password: mypass
+  dbname: ride
+env: dev

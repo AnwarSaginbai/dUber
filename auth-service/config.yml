@@ -1,0 +1,11 @@
+server:
+  host: localhost
+  port: 8081
+database:
+  host: localhost
+  port: 5432
+  username: anwarz
+  password: mypass
+  dbname: auth
+secret: "mVd2k1hHqPpN5u8XKZL3q4Y1W9oTz7QjB0Cn5vY="
+env: dev

@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  auth-service:
+    container_name: auth
+    image: postgres:latest
+    env_file:
+      - ./auth-service/.env
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - auth_postgres_data:/var/lib/postgresql/data
+
+  ride-service:
+    container_name: ride
+    image: postgres:latest
+    env_file:
+      - ./ride-service/.env
+    restart: always
+    ports:
+      - "5433:5432"
+    volumes:
+      - ride_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  auth_postgres_data:
+  ride_postgres_data:
